@@ -1,6 +1,6 @@
 ﻿namespace FizzBuzz.Common;
 
-internal class MatchedStorageFactory : IMatchedStorageFactory
+public class MatchedStorageFactory : IMatchedStorageFactory
 {
 
   public IMatchedStorage Create()
